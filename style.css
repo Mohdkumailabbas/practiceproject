@@ -16,7 +16,7 @@ html,body{
 }
 #page1{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: rgb(0,0,0);
 } 
 
@@ -69,7 +69,7 @@ html,body{
     top: 50%;
     margin-bottom:10vh ;
     
-    overflow-x: hidden;
+    
 }
 #whitebox h4{
   font-size: 5vh;
@@ -149,4 +149,31 @@ html,body{
     align-items: center;
     justify-content: center;
     border: 2px solid gray;
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding-left: 2vw;
+}
+.elem{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20vh;
+    width: 80%;
+    padding: 0.5vw 1vw;
+    border-top: 1px solid grey;
+    opacity: 0.7;
+}
+.elem h2{
+    text-transform: uppercase;
+    font-size: 6vw;
+}
+.elem h5{
+    text-align: right;
+}
+.elemlast{
+    padding-top: 8vh;
+    width: 80%;
+    border-bottom: 1px solid gray;
 }
