@@ -164,6 +164,7 @@ html,body{
     padding: 0.5vw 1vw;
     border-top: 1px solid grey;
     opacity: 0.7;
+    position: relative;
 }
 .elem h2{
     text-transform: uppercase;
@@ -176,4 +177,84 @@ html,body{
     padding-top: 8vh;
     width: 80%;
     border-bottom: 1px solid gray;
+}
+.elem img{
+    position: absolute;
+    z-index: 999;
+    height: 230%;
+    opacity: 0;
+    display: none;
+}
+#aboutt{
+    width: 100%;
+    
+    background-color: black;
+    padding: 10vw ;
+    padding-left: 40vw;
+    display: flex;
+    gap :0.8vw;
+    justify-content: center;
+
+
+}
+#aboutt img{
+    width:12vw;
+    
+}
+
+#textabout{
+    width: 80%;
+   text-transform: capitalize;
+   font-family:'Times New Roman', Times, serif;
+   font-family: 100;
+}
+#textabout h5{
+    opacity: .6;
+    text-transform: capitalize;
+}
+#textabout p{
+    line-height: 22px;
+}
+#talk{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 0.6vw;
+    width: 6vw;
+    
+   border: 1px solid white;
+   border-radius: 100px;
+   margin-left:2vw ;
+}
+#utube{
+    background-color: black;
+    padding-left: 2vw; 
+    padding-bottom: 2vw;   
+}
+#utube{
+    text-transform: uppercase;
+}
+#utube h4{
+    opacity: .6;
+}
+#utube h5{
+    line-height: 20px;
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+#fotternav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 1vw;
+    
+}
+#fnav1{
+    display: flex;
+    gap:1vw;
+
+}
+#fnav2{
+    display: flex;
+    gap:1vw;
+    
 }
