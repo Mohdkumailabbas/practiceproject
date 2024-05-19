@@ -194,6 +194,35 @@ html,body{
     opacity: 0;
     display: none;
 }
+.boundry{
+    width: fit-content;
+    overflow: hidden;
+}
+.boundry h2{
+    transform: translateY(100%);
+   
+}
+.text{
+    width: fit-content;
+    overflow: hidden;
+} 
+
+.text #hey{
+    transform: translateY(110%);
+}
+.text #elem{
+    transform: translateY(110%);
+}
+.f1{
+    width: fit-content;
+    overflow: hidden;
+}
+.f1 h3{
+    transform: translateY(110%);
+}
+.f1 h4{
+    transform: translateY(110%);
+}
 #aboutt{
     width: 100%;
     
